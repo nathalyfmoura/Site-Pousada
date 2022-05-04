@@ -1,0 +1,347 @@
+body{
+      width: 100%;
+}
+header{
+      padding: 20px 0;    
+  }
+  .topo{
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+ }
+
+
+ .imagem{
+     width: 40%;
+     display: block;
+       }
+
+  .navegar{
+      width: 60%;
+     padding-top:  80px;
+     display: block;
+     text-align: center;
+     }
+
+  nav li{
+      display: inline;
+      width: 50%;
+      margin: 0 0 0 20px;
+      box-sizing: border-box;
+      border: 2px solid rgba(68, 179, 134, 0.434);
+      padding: 15px;
+      border-radius: 10px;
+      background-color: rgba(138, 221, 191, 0.262);   
+  }
+
+  nav li:hover{
+      transform: scale(1.1);
+      background-color: rgba(2, 88, 2, 0.276);
+  }
+
+  nav a {
+      text-transform: uppercase;
+      color: #000000;
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: none;
+  }
+  
+  .principal{
+      width:100%;
+      text-align: center;
+      background-color:  rgba(127, 255, 212, 0.027);
+ }
+
+  .principal-2{
+        display: none;
+  }
+
+  main{
+        display: inline;
+        width: 100%;
+        place-items: center;
+  }
+
+  .titulo-2{
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 30px;
+        background-color: rgba(127, 255, 212, 0.027);
+        color:rgba(8, 83, 58, 0.869) ;   
+  }
+
+  .servicos-1{
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      background: linear-gradient(rgba(127, 255, 212, 0.027),rgba(127, 255, 212, 0.131));
+  }
+  .servicos{
+      padding: 5em;
+      margin: 0 auto;
+      width: 100%;
+      display: block;
+  }
+.item1{
+        line-height: 3;
+        padding-left: 10px;
+        font-size: 34px;   
+  }
+  .item{
+      line-height: 2;
+      font-size: 21px;
+      padding-left: 10px;
+      width: 100%;
+      display: block;
+  }
+  .item:before{
+      content: "\2605 ";
+      padding-right: 15px;
+      color: green;
+  }
+  /* carousel */
+  *{
+        margin: 0; padding: 0; box-sizing: border-box;
+  }
+  #items-img{
+        display: inline-block;
+        width: 50%;
+  }
+
+  #items{
+        display: flex;
+       overflow-x: auto;
+       scroll-snap-type: x mandatory;
+  }
+
+  .item-1{
+       flex: none;
+    scroll-snap-align: start;
+  }
+
+  .img{
+        width: 100%;
+        height: 100%;
+  }
+
+  .titulo-principal{
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px 20px;
+        border: 5px outset rgba(14, 32, 14, 0.482);
+        font-size: 40px;
+        color: rgba(3, 29, 20, 0.869);
+        background-color: rgba(127, 255, 212, 0.131);
+  }
+  .mapa-conteudo{
+     text-align: center;
+     width: 100%;
+     background-color: rgba(127, 255, 200, 0.131);
+     padding-top: 20px;
+  }
+  /* footer */
+  .informacion{
+      justify-content: space-between;
+        display: flex;
+        text-align: center;
+        padding: 50px;
+        /* background-color: rgba(212, 255, 212, 0.669); */
+        background: linear-gradient(rgba(127, 255, 212, 0.131),rgba(127, 255, 212, 0.393));
+  }
+  .endereço{
+        font-size: 22px;
+       color: rgb(0, 47, 0);
+       padding-left:  7em;
+       font-weight: bold;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+      padding-top: 60px;
+  }
+  .contato{
+        text-align: left;
+        font-size: 22px;
+        padding-right:  7em;
+        color: rgb(2, 44, 2);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2;
+  }
+  .final{
+      line-height: 2;
+      color: rgb(1, 47, 1);
+      font-family:sans-serif;
+      text-align: center;
+      padding: 20px;
+      font-size: 20px;
+      background:rgba(127, 255, 212, 0.393) ;
+  }
+  /* pagina hospedagem */
+  table{
+      border-collapse: collapse;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+     padding-bottom: 30px;
+  }
+  thead tr{
+        border-bottom: 3px solid rgb(0, 88, 60);
+        font-size: 22px;
+        text-align: left;
+        color: rgb(236, 245, 236);
+        background: rgba(0, 54, 0, 0.827);
+      }
+    
+
+      tr:nth-child(2n){
+            background: rgba(1, 116, 1, 0.165);
+      }
+      
+      th,td{
+          padding: 15px;
+         
+      }
+  /* tbody tr:hover{
+      background-color: rgba(34, 131, 76, 0.214);
+  }  */
+/* reserva---------------------------------------------------------------- */
+  form{
+    margin-bottom: 20px;
+      background: rgba(1, 104, 1, 0.034);
+
+    
+}
+form label, form legend{
+      display: block;
+      font-size: 20px;
+      margin: 0 0 10px ;
+}
+.input-padrao{
+      display: inline;
+      margin:0 0 20px;
+      padding:10px 25px ;
+      width: 30%;
+ }
+ #data-inicial,#data-final{
+      padding:8px 15px ;
+      width: auto;
+      border-color: darkgreen;
+      border-radius: 10px;
+ }
+ #pessoas{
+      padding:8px 20px ;
+      width: auto;
+      border-color: darkgreen;
+      border-radius: 10px;
+ }
+ #acomodacao{
+      padding:8px 20px ;
+      width: auto;
+      border-color: darkgreen;
+      border-radius: 10px;
+     
+ }
+.enviar{
+      width: 40%;
+      padding: 10px 0;
+      background-color: rgba(5, 56, 15, 0.269);
+color: #fff;
+font-weight: bold;
+font-size:  18px;
+border:none;
+border-radius: 4px;
+transition:  2s all ;
+cursor:pointer;
+}
+.container{
+      display: flex;
+      text-align: left;
+      width: auto;
+}
+.container-1{
+display: block;
+width: 50%;
+padding-left: 40px;
+}
+ .container-2{
+display: block;
+width: 50%;
+padding-left: 40px;
+} 
+legend{
+      padding: 30px;
+      font-size: 30px;
+      text-align: center;    
+}
+@media screen and (max-width: 480px) {
+      .topo{
+            width: auto;
+            display: block;
+
+      }
+      ul{
+            padding-top: 15px;
+            width: auto;
+      }
+
+h1 {
+      text-align: center;
+  }
+  .navegar {
+      display: inline;
+      padding-top: 15px;
+  }
+  .mapa-conteudo{
+        display: none;
+  }
+  #items{
+        display: none;
+  }
+  #itens-img{
+        display: none;
+  }
+  .container{
+        display: inline;
+  }
+  .principal{
+      display: none;
+
+}
+.principal-2{
+      display: block;
+      width: 100%;
+      padding-top: 15px;
+}
+.endereço{
+      
+     padding-left: 10px;
+}
+#titulo3{
+border: none;
+font-size: 30px;
+}
+.informacion{
+      display: block;
+  padding-top: 20px;
+}
+.endereço{
+      padding-bottom: 40px;
+}
+.servicos{
+      text-align: left;
+}
+.item1{
+      line-height: 1;
+      padding-left: none;
+      font-size: 22px;
+      width: 100%;
+}
+.item{
+      line-height: 2;
+      font-size: 20px;
+      padding-left: 2px;
+      width: 100%;
+      display: block;
+      text-align: left;
+  }
+}

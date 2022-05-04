@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pousada Paraiso</title>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <header>
+            <!-- <div class="container"> -->
+            <div class="topo">
+                  <div class="imagem">
+
+                        <h1><img src="logo.png" alt="logo pousada paraiso"> </h1>
+                  </div>
+                  <div class="navegar">
+
+                        <nav>
+                              <ul>
+                                    <li><a href="home.html">Home</a></li>
+                                    <li><a href="hospedagem.html">Hospedagem</a></li>
+                                    <li><a href="reserva.html">Reserva</a></li>
+                              </ul>
+                        </nav>
+                  </div>
+            </div>
+      </header>
+      <main>
+            <fieldset>
+
+                  <legend>Solicitar Reserva</legend>
+                  <form>
+                        <div class="container">
+
+                              <div class="container-1">
+
+                                    <p>
+                                          <label for="data-inicial">Data de entrada </label>
+                                          <input type="date" id="data-inicial" class="input-padrao" required>
+                                    </p>
+                                    <p>
+                                          <label for="data-final">Data de saida </label>
+                                          <input type="date" id="data-final" class="input-padrao" required>
+                                    </p>
+                                    <p>
+                                          <label for="pessoas">Adultos</label>
+                                          <input type="number" id="pessoas" class="input-padrao" required>
+                                    </p>
+                                    <p>
+                                          <label for="pessoas">Crianças 4 a 10 anos</label>
+                                          <input type="number" id="pessoas" class="input-padrao" required>
+                                    </p>
+                                    <p>
+                                          <label for="acomodacao">Acomodação</label>
+                                          <select id="acomodacao" class="input-padrao">
+                                                <option value="QL">Quarto Luxo</option>
+                                                <option value="SM">Suite Master</option>
+                                                <option value="SP">Suite Premium</option>
+                                                <option value="SR">Suite Recanto</option>
+                                          </select>
+                                    </p>
+                              </div>
+                              <div class="container-2">
+
+                                    <p>
+                                          <label for="nome"> Nome </label>
+                                          <input type="text" id="nome" class="input-padrao" required>
+                                    </p>
+                                    <p>
+                                          <label for="email">E-mail </label>
+                                          <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                                    </p>
+                                    <p>
+                                          <label for="telefone">Telefone </label>
+                                          <input type="tel" id="numero" class="input-padrao" required placeholder="(xx) 90000 0000" class="input-padrao">
+                                    </p>
+
+                                    <input type="submit" value="enviar" class="enviar">
+
+                              </div>
+                        </div>
+
+      </main>
+      </fieldset>
+      <footer>
+            <div class="final">
+                  <p class="copyright">&copy; Pousada Recanto da Natureza - 2021</p>
+                  <p class="copyright">Desenvolvido por Nathaly Moura.</p>
+            </div>
+      </footer>
+      </footer>
+</body>
